@@ -3,8 +3,6 @@
 **Author:** Sauli Kälkäjä 
 **AI Collaborators:** Google Gemini (Synthesis & Architecture), Anthropic Claude (Language-Domain Implementation & Auditing), Alibaba Qwen (Adversarial Theoretical Audits)
 
-**Sibling repository:** [Aisha-code](https://github.com/SauliKalkaja/Aisha-code) — the deterministic Python code generator built on the same symplectic jump engine.
-
 ## The Core Philosophy: Geometry > Kinematics
 
 For centuries, physics has relied on time-dependent differential equations to predict the future. Whether calculating the orbits of planets (N-Body integrators), the flow of the atmosphere (Navier-Stokes CFD), or the probability cloud of an electron (Schrödinger/Dirac), traditional physics breaks continuous reality into infinitesimally small time-steps ($dt$). This results in cumulative numerical drift, extreme computational costs, and mathematical singularities when systems approach extreme limits (like $r \rightarrow 0$).
@@ -30,8 +28,7 @@ Standard orbital mechanics rely on iterative integration. We proved that orbital
 
 Traditional climate models are bottlenecked by grid resolution and fluid advection. We mapped the Earth's atmosphere onto a 6D Continuous Torsion Mesh, linking the spatial condensation factor directly to thermodynamic density ($\alpha(T, P)$). Fluid turbulence ceases to be a kinematic problem and becomes a geometric necessity (Metric Shear).
 * **Hurricane Katrina (2005):** The engine evaluated the entire 8-day lifecycle of Category 5 Hurricane Katrina from ERA5 reanalysis data in **0.23 seconds**. It identified the eye-wall not by tracking wind vectors, but by calculating the topological "Manifold Flips" forced by extreme metric shear.
-* **El Niño Forecasting:** Generated a 10,000-run Monte Carlo probability distribution for the 2026 Oceanic Niño Index (ONI) instantly.
-* *Visuals included:* `Hurricane_Katrina_6D_Animation.mp4`, `ONI_index_Probablility_Distribution.png`
+* *Visuals included:* `Hurricane_Katrina_6D_Animation.mp4`
 
 ## ⚛️ Project 3: Relativistic Quantum Mechanics (The 8D QHJ Framework)
 **Determinism and the $\mathcal{O}(1)$ Quantum State**
@@ -49,17 +46,6 @@ Mainstream macroeconomics models markets as frictionless systems of infinite gro
 * **Validation:** 800{,}000 discrete phase-space agents across 150+ nations over a 75-year timeframe, evaluated in fractions of a second via the SSMP analytical propagator.
 * **Empirical targets:** correctly identified the 2008 US Financial Crash's routing to the Bottom 90% (Main Street), the 2020 COVID-19 direct-stimulus topological shift, and the mid-1970s systemic fracture of the Global South under the Bretton Woods collapse.
 * **See:** `Economy/` and `Symplectic_Macroeconomic_Manifold.pdf`.
-
-## 🧠 Project 5: Cognitive Architecture & Language Generation (Project Aisha)
-**Extending the framework from physical systems to word-vector manifolds**
-
-If concepts are geometric coordinates on a high-dimensional lexicon manifold, the same symplectic lock that stabilizes atomic orbits should stabilize linguistic structure. Project Aisha trains a per-word 8-dimensional Kähler manifold over a 50,000-word English vocabulary and applies the $\mathcal{O}(1)$ analytical jump at multiple linguistic scales — word to phrase, phrase to clause, turn to turn — so that the physics itself discovers the grammar.
-* **A hierarchy of analytical jumps:** The same jump detector used to mark orbital pericentre is applied scale-invariantly: word $\to$ phrase, phrase $\to$ clause, turn $\to$ discourse. Each layer detects discontinuities in the coordinate trajectory one scale up. On 4,002 corpus turns, 2–3 phrases of 3–4 words fall out per sentence without supervision, matching typical English phrase sizes.
-* **Emergent grammatical types:** Six phrase types cluster naturally from the 5-axis physics ($M$, $\chi$, $s$, valence, arousal): openers, loose bridges, connectives, content bodies, dense closers, tag concluders. Five clause types cluster at the next level. Each type carries a distinct positional bias and register signature — no tags were supplied.
-* **Physics-grammar is measurable:** Real English phrases obey geometric laws: $M(r)$ follows a U-shape within a phrase (content-heavy edges, function-light middle); $\chi = M(\theta)$ rises monotonically across the phrase; valence and arousal arc up in the middle and fall back at close. Within-phrase pair-torsion binding exceeds across-boundary binding by a factor of 5. These shapes are measured from the trained manifold directly and then used to condition generation.
-* **Two-tier deployment:** The physics engine extracts structure at $\sim 0.05$ J per query with zero neural compute at query time. A small on-device LM (Llama 3.2 1B, $\sim 10$ J per reply) fills the structural template with surface English. Total per-reply energy is dominated by the LM but remains $\sim 100\times$ cheaper than a cloud LLM call of comparable behaviour. Measured output is grammatically cleaner than the training corpus (0.02 grammar-lints per reply vs 0.12 for corpus humans) at comparable POS-bigram likelihood.
-* **Code generation as a parallel validation:** `Symplectic_Jump_Generation.pdf` reports five empirical falsifications of the naive $\arg\max$-on-cosine approach on natural English, then one positive validation: the same jump engine applied to Python source code (where formal grammar creates sharp local co-occurrence) produces syntactically-valid output at a 78% parse rate with a 2.5 MB total model size, no GPU, fully deterministic execution.
-* **Code-generation engine:** separate repository, [Aisha-code](https://github.com/SauliKalkaja/Aisha-code).
 
 ---
 
