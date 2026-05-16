@@ -41,11 +41,6 @@ README).
 - **`Analytical_jump_vs_RK45.pdf`** — Side-by-side timing and drift
   comparison: the analytical jump against Runge–Kutta 45 integration.
 
-- **`Aisha_core.pdf`** — Natural-language manifold: a 50,000-word
-  Kähler substrate with a three-layer analytical-jump hierarchy
-  (word → phrase → clause), measured physics-grammar laws, and a
-  term-by-term correspondence to the 8D relativistic quantum
-  framework.
 
 ---
 
