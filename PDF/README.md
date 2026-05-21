@@ -38,9 +38,6 @@ README).
 - **`Continuum_Limit.pdf`** — Galactic rotation curves from metric
   shear without dark matter; M33 case study.
 
-- **`Analytical_jump_vs_RK45.pdf`** — Side-by-side timing and drift
-  comparison: the analytical jump against Runge–Kutta 45 integration.
-
 
 ---
 
