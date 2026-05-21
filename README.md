@@ -64,7 +64,6 @@ This repository represents a new frontier in theoretical exploration. The mathem
 - `6D_Symplectic_Quantum_Manifold.pdf` — atomic quantization via 6D metric shear
 - `8D_Relativistic_Quantum_Manifold.pdf` — relativistic quantum states
 - `Symplectic_Macroeconomic_Manifold.pdf` — (in `Economy/`) macroeconomic ensemble dynamics
-- `Symplectic_Jump_Generation.pdf` — the methodology paper on deterministic language generation (5 falsifications on natural English, 1 validation on Python code)
 
 ### 🛠️ Data Availability & Usage
 All Python solvers, diagnostic suites, and visualization scripts are open-source and available in their respective directories. You are encouraged to clone, critique, and push the boundaries of the Symplectic Lock.
